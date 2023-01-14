@@ -1,0 +1,41 @@
+.techContainer{
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.techHeader{
+    margin: 100px auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+}
+
+.techHeader::before{
+    content: "";
+    display: block;
+    width: 220px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.techHeader::after{
+    content: "";
+    display: block;
+    width: 220px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.iconsContainer{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}

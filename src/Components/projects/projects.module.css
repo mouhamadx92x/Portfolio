@@ -1,0 +1,29 @@
+.projectsHeader{
+    margin: 100px auto;
+    text-align: center;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+}
+
+.projectsHeader::before{
+    content: "";
+    display: block;
+    width: 180px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.projectsHeader::after{
+    content: "";
+    display: block;
+    width: 180px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}

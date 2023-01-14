@@ -1,0 +1,60 @@
+.card {
+    width: 500px;
+    height: 600px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    margin: 50px;
+    position: relative;
+    font-size: 1.5rem;
+  }
+ 
+  .cardImage{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+  }
+ 
+  .state{
+    font-size: 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content:space-around;
+    background: rgb(255, 7, 110);
+    color: aliceblue;
+    padding: 10px 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .date{
+    color: rgb(255, 7, 110);
+margin: 5px;
+font-weight: 300;
+  }
+
+  .name{
+    margin: 15px;
+    font-weight: 300;
+  }
+
+  .describe{
+    padding: 15px;
+    margin: 0 5px;
+  }
+
+
+.btn{
+background-color: transparent;
+border: none;
+color: aliceblue;  
+}
+
+
+.link{
+text-decoration: none;  
+}
